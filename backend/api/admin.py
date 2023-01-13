@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Menu, Item
+from .models import Item, Menu
 
 
 @admin.register(Menu)
